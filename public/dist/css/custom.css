@@ -1,0 +1,195 @@
+.datatable {
+    width: 100% !important;
+}
+
+table.dataTable tbody td.select-checkbox::before,
+table.dataTable tbody td.select-checkbox::after,
+table.dataTable tbody th.select-checkbox::before,
+table.dataTable tbody th.select-checkbox::after {
+    top: 50%;
+}
+
+.dataTables_length,
+.dataTables_filter,
+.dt-buttons {
+    margin-bottom: 0.333em;
+}
+
+
+.table.datatable {
+    box-sizing: border-box;
+    border-collapse: collapse;
+}
+
+.dataTables_wrapper.no-footer .dataTables_scrollBody {
+    border-bottom: 1px solid #dee2e6;
+}
+
+table.dataTable thead > tr > th.sorting:before,
+table.dataTable thead > tr > th.sorting_asc:before,
+table.dataTable thead > tr > th.sorting_desc:before,
+table.dataTable thead > tr > th.sorting_asc_disabled:before,
+table.dataTable thead > tr > th.sorting_desc_disabled:before,
+table.dataTable thead > tr > td.sorting:before,
+table.dataTable thead > tr > td.sorting_asc:before,
+table.dataTable thead > tr > td.sorting_desc:before,
+table.dataTable thead > tr > td.sorting_asc_disabled:before,
+table.dataTable thead > tr > td.sorting_desc_disabled:before {
+    content: "";
+}
+
+table.dataTable thead > tr > th.sorting:after,
+table.dataTable thead > tr > th.sorting_asc:after,
+table.dataTable thead > tr > th.sorting_desc:after,
+table.dataTable thead > tr > th.sorting_asc_disabled:after,
+table.dataTable thead > tr > th.sorting_desc_disabled:after,
+table.dataTable thead > tr > td.sorting:after,
+table.dataTable thead > tr > td.sorting_asc:after,
+table.dataTable thead > tr > td.sorting_desc:after,
+table.dataTable thead > tr > td.sorting_asc_disabled:after,
+table.dataTable thead > tr > td.sorting_desc_disabled:after {
+    content: "";
+    display: inline-flex;
+    width: 1rem;
+    height: 1rem;
+    vertical-align: bottom;
+    -webkit-mask-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' width='16' height='16' fill='none' stroke='currentColor' stroke-linecap='round' stroke-linejoin='round' stroke-width='1'><path d='M5 7l3 -3l3 3'/><path d='M5 10l3 3l3 -3'/></svg>");
+    mask-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' width='16' height='16' fill='none' stroke='currentColor' stroke-linecap='round' stroke-linejoin='round' stroke-width='1'><path d='M5 7l3 -3l3 3'/><path d='M5 10l3 3l3 -3'/></svg>");
+    background: currentColor;
+    margin-left: 0.25rem;
+    top: 0%;
+    position: unset;
+    opacity: unset;
+}
+
+table.dataTable thead > tr > th.sorting_asc:after {
+    -webkit-mask-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' width='16' height='16'><path fill='none' stroke='currentColor' stroke-linecap='round' stroke-linejoin='round' stroke-width='1' d='M5 10l3 -3l3 3'/></svg>");
+    mask-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' width='16' height='16'><path fill='none' stroke='currentColor' stroke-linecap='round' stroke-linejoin='round' stroke-width='1' d='M5 10l3 -3l3 3'/></svg>");
+}
+
+table.dataTable thead > tr > th.sorting_desc:after {
+    -webkit-mask-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' width='16' height='16'><path fill='none' stroke='currentColor' stroke-linecap='round' stroke-linejoin='round' stroke-width='1' d='M5 7l3 3l3 -3'/></svg>");
+    mask-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' width='16' height='16'><path fill='none' stroke='currentColor' stroke-linecap='round' stroke-linejoin='round' stroke-width='1' d='M5 7l3 3l3 -3'/></svg>");
+}
+
+table.dataTable thead .sorting,
+table.dataTable thead .sorting_asc,
+table.dataTable thead .sorting_desc {
+    background-image: none;
+}
+
+.dataTables_length label select {
+    width: 65px !important;
+}
+
+div.dataTables_wrapper div.dataTables_paginate ul.pagination {
+    padding-top: 0.3em;
+}
+
+div.dataTables_wrapper div.dataTables_paginate ul.pagination li {
+    text-align: center !important;
+}
+
+div.dataTables_wrapper div.dataTables_paginate ul.pagination li.previous {
+    margin-right: 0.5rem;
+}
+
+div.dataTables_wrapper div.dataTables_paginate ul.pagination li.next {
+    margin-left: 0.5rem;
+}
+
+div.dataTables_wrapper div.dataTables_filter {
+    text-align: left;
+    margin-bottom: 0px;
+}
+
+.dataTables_length {
+    display: inline !important;
+    margin-right: 0.5rem;
+}
+
+.dataTables_length:after {
+    content: "-";
+    margin-left: 0.5rem;
+}
+
+div.dataTables_wrapper div.dataTables_info {
+    display: inline !important;
+    padding-top: 0px;
+}
+
+table.dataTable {
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+}
+
+.card-datatable {
+    border-top: 0px;
+    background-color: unset;
+}
+
+.ck-editor__editable,
+textarea {
+    min-height: 150px;
+}
+
+.btn-group-xs > .btn,
+.btn-xs {
+    padding: 1px 5px;
+    font-size: 12px;
+    line-height: 1.5;
+    border-radius: 3px;
+}
+
+.select2 {
+    max-width: 100%;
+    width: 100%;
+}
+
+.searchable-title {
+    font-weight: bold;
+}
+.select2-container--open {
+    z-index: 9999;
+}
+.searchable-fields {
+    padding-left: 5px;
+}
+.searchable-link {
+    padding: 0 5px 0 5px;
+}
+.searchable-link:hover {
+    cursor: pointer;
+    background: #eaeaea;
+}
+.select2-results__option {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.form-group .required::after {
+    content: " *";
+    color: red;
+}
+
+.form-check.is-invalid ~ .invalid-feedback {
+    display: block;
+}
+div.dt-button-collection {
+    padding: 0;
+}
+
+.buttons-columnVisibility {
+    display: block;
+}
+
+.buttons-columnVisibility.active {
+    background-color: rgba(128, 128, 128, 0.1);
+    font-weight: bolder;
+}
+
+:root {
+    --dt-row-selected: 203,52,46;
+    --dt-row-selected-text: 255, 255, 255;
+    --dt-row-selected-link: 203,52,46;
+}
